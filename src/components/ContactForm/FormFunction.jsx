@@ -6,8 +6,7 @@ export default function Formfunction({ onSubmit }) {
 
   const handleChange = e => {
     const { name, value } = e.target;
-    // console.log(name, value);
-    // this.setState({ [name]: value });
+
     if (name === 'name') {
       setName(value);
     } else if (name === 'number') {

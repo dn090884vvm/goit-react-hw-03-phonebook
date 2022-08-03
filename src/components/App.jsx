@@ -37,8 +37,6 @@ class App extends Component {
   };
 
   addContact = ({ name, number }) => {
-    // console.log(name, number);
-
     const { contacts } = this.state;
     const isInContacts = contacts.find(
       contact => contact.name.toLowerCase() === name.toLowerCase()
